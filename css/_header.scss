@@ -1,0 +1,46 @@
+.header{
+	background-color: yellow;
+	height: 100%;
+	width: 100%;
+  
+   .header__logo{
+        display: block;
+        margin: auto;
+        height: 180px;
+        width: auto;
+    }
+}    
+
+
+
+    
+
+.nav-item{
+    color: white !important;
+    position: relative;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.agrandar { transition: all .2s ease-in-out; }
+.agrandar:hover { transform: scale(1.03);}
+
+
+.logo {
+  width: 50%;
+  margin-top: -25px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 5s;
+  animation-name: aparecer;
+}

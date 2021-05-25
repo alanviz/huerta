@@ -1,0 +1,135 @@
+
+#primerSeccion{
+	height: 550px;
+	background-image: linear-gradient(#94B10B, #23B63C);
+	display: flex;
+	flex-direction: column;
+	border: solid 1px green;
+	border-radius: 10px;
+	.enlace{
+		text-decoration: none;
+	}
+
+}
+
+#primerSeccion .enlace h1:hover {
+	color: white;
+	-webkit-transition: all 2s;
+	transition: all 2s;
+  }
+
+
+
+#segundaSeccion{
+	height: 550px;
+	background-image: linear-gradient(#56DB33, yellow);
+	border: solid 1px green;
+	border-radius: 10px;
+}
+
+
+#tercerSeccion{
+	height: 550px;
+	background-image:linear-gradient(to top, #DB9333, #CFDB33);
+	border: solid 1px green;
+	border-radius: 10px;
+	.video{
+		text-align: center;
+		padding-top: 50px;
+		.youtube{
+			
+			width: 80%;
+			height: 350px;
+
+		}
+	}
+	
+
+}
+
+/*.video{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}*/
+/*.video iframe{
+	height: 80%;
+	left: 0;
+	margin-left: 100px;
+	position: absolute;
+	top: 0;
+	width: 80%;
+	}*/
+
+/*.youtube{
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 15px;
+	padding-left: 7px;
+}*/
+
+
+section h1, section h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Architects Daughter';
+	color: #252525;
+	text-align: center;
+	
+}
+
+
+	
+
+
+#cuartaSeccion{
+width: 100%;
+height: 300px;
+background-image: linear-gradient(to top, #AADB33, #33DB64);
+border: solid 1px green;
+border-radius: 10px;
+	.mapa{
+		text-align: center;	
+	 	iframe{
+			width: 80%;
+			height: 200px;
+		 }
+	}	
+}
+
+#quintaSeccion{
+	width: 100%;
+	height: 300px;
+	background-image: linear-gradient( #CE9A55, #89CE55);
+	border: solid 1px green;
+	border-radius: 10px;
+	text-align: center;
+	.enlace{
+		text-decoration: none;
+	}
+	
+		
+}
+
+#quintaSeccion .enlace h3:hover{
+	color: white;
+	-webkit-transition: all 2s;
+	transition: all 2s;
+}
+
+  
+
+
+.foro img{
+	display: block;
+	margin: auto;
+	padding-left: 20px;
+}
+
+
+
+
+
+

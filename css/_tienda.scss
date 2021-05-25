@@ -1,0 +1,35 @@
+
+
+
+.tienda{    
+    text-align: center;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+.producto{
+    margin: 30px;
+    height: 300px;
+	border: solid 1px #008000;
+	border-radius: 10px;
+    .producto__texto{
+        text-align: center;
+        color:rgb(0, 86, 214);
+        font-weight: bold;
+    }
+    .producto__fruto{
+        display:block;
+        margin:auto;
+    }
+    .producto__precio{
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .producto__carrito{
+        display: block;
+        margin: auto;
+    }
+}
