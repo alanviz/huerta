@@ -117,14 +117,15 @@
 }
 
 .footer {
-  position: relative;
-  height: 50px;
-  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.5fr;
+      grid-template-columns: 1fr 0.5fr;
   background-color: #198754;
+  grid-row-gap: 50px;
 }
 
 .footer .footer__pick {
-  position: absolute;
   font-size: 20px;
   font-family: sans-serif;
   font-weight: bold;
@@ -133,14 +134,12 @@
 }
 
 .footer .footer__iconos {
-  position: absolute;
-  right: 50px;
-  margin-top: 5px;
+  text-align: right;
 }
 
 .footer .footer__iconos .iconos__img {
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 #primerSeccion {
