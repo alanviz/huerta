@@ -475,4 +475,8 @@ section h1, section h3 {
   margin: 0;
   padding: 0;
 }
+
+.mynav a:hover {
+  border-bottom: 2px solid orange;
+}
 /*# sourceMappingURL=estilos.css.map */
