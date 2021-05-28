@@ -1,23 +1,24 @@
-.footer{
+.footer {
+    width: 100%;   
    display: grid;
-   grid-template-columns: 1fr 0.5fr;   
+   grid-template-columns: 1fr 1fr;   
    background-color: #198754;
-   grid-row-gap: 50px;
-   .footer__pick{        
+   .footer__pick {
+    text-align: left;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     }
     .footer__iconos {
         text-align: right;
-        .iconos__img{
+        padding-top: 5px;
+        .iconos__img {
             padding-right: 20px;
             padding-left: 20px;
         }
    }
-
 
 }
 

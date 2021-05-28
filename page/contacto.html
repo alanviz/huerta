@@ -28,7 +28,7 @@
     <header class="header">
         <img class="header__logo agrandar" src="../multimedia/logo.png">
             
-       <nav class="navbar navbar-expand-lg navbar-light bg-success text-white">            
+       <nav class="navbar navbar-expand-lg navbar-light bg-success text-white mynav">            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,58 +44,27 @@
     </header>
     
       
-    <section class="contenedor">
-
-        <div class=" contacto">
-            <p class="contacto__mensaje"> Si quieres información sobre cualquiera de nuestros productos o estás interesado en su disttribuición
-                <br> rellena nuestro formulario y nos pondremos en contacto contigo lo antes posible.
-                <br>Muchas Gracias.
-                <br>
-                <br>Telefono(+549) 11-2510-8739
-                <br>
-                <br>Direccion: San Lorenzo 2578 - General San Martin.
-            
-
+    <section class="contenedor">      
+        <div class="separador">
             <form class="form" >
-                <fieldset class="form__borde"> 
-                    
-                    <legend class="borde__titulo">Formulario</legend>
-                    <label class="borde__dato"  for="Nombre" placeholder= >Nombre: </label>
-                    <input type="text" name="Nombre" placeholder="Nombre Y Apellido">
-                    <br>
-                    <label class="borde__dato"  for="email">Email:</label>
-                    <input type="email" name="email" placeholder="Nombre@ejemplo.com">
-                    <br>
-                    <label class="borde__dato"  for="Asunto">Asunto: </label>
-                    <select name="Asunto">
-                    <option value=""> Disponibilidad </option>
-                    <option value=""> Duda </option>
-                    <option value=""> Envío </option>
-                    <option value=""> Otro </option>
-                    </select>
-                    <br>
-                    <br>
-                    <label class="borde__dato"  for="Comentarios"> Comentarios </label>
-                    <br>
-                    <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
-                    <br>
-                    <input type="submit" value="Enviar"> <input type="reset" value="Reiniciar">
-                    <br>
-                </fieldset> 
-                    
+                <h2>CONTACTO</h2>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="email" name="Correo" placeholder="Nombre@ejemplo.com">
+                <input type="text" name="Telefono" placeholder="Telefono">
+                <textarea name="Mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                <input type="button" value="ENVIAR" id="boton">               
             </form>
         </div>
 
     </section>
 
 
-<footer class="footer foo1">  
+    <footer class="footer">  
         <h2  class="footer__pick"> Creado por Alan Vizza</h2>     
         <div class="footer__iconos">       
             <a class="iconos__img" href="http://twitter.com" target="_blank"><img  height="40" width="auto" src="../multimedia/twitter.png"></a>
             <a class="iconos__img" href="http://facebook.com" target="_blank"><img  height="40" width="auto" src="../multimedia/facebook.png"></a>
-            <a class="iconos__img" href="http://instagram.com" target="_blank"><img  height="40" width="auto" src="../multimedia/instagram.png"></a>
-            
+            <a class="iconos__img" href="http://instagram.com" target="_blank"><img  height="40" width="auto" src="../multimedia/instagram.png"></a>  
         </div>    
             
     </footer>

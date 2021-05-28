@@ -1,50 +1,51 @@
-.back{
-	position: absolute;
+.separador{
 	width: 100%;
-	height: 69.5%;
-}
-
-
-.contacto{
-	position: relative;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding-bottom: 4.4%;
-	.contacto__mensaje{
-		width: 60%;
-		height: 70%;
-		margin-top: 10%;
-		justify-self: center;
-		font-weight: 600;
-		font-size: 25px;
-		border: 2px groove rgb(170, 130, 42);
-		font-family:'Times New Roman', Times, serif;
-		color: #160c01;
-
-	}
-}
-
-
-.form{
+	height: 700px;
 	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	position: relative;
-	margin-top: 5%;
-	.form__borde{
-		width: 40%;
-		text-align: center;
-		border: 2px groove rgb(170, 130, 42);
-		.borde__titulo{
-			font-size: 30px;
-			font-weight: 600;
-		}
-		.borde__dato{
-			font-size: 20px;
-			font-weight: 500;
-
-		}
-	}
-	
+ 	flex-direction: column;
+  	justify-content: center;
+ 	align-items: center;
 }
+
+.form {
+	
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	border-radius: 10px;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton {
+	background: #31384A;
+	color: #fff;
+	padding: 20px;
+}
+#boton:hover {
+	cursor: pointer;
+}
+
 
