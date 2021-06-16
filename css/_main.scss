@@ -1,9 +1,10 @@
 
 #primerSeccion{
-	height: 550px;
-	background-image: linear-gradient(#94B10B, #23B63C);
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	height: 550px;
+	background-image: linear-gradient(#94B10B, #23B63C);
 	border: solid 1px green;
 	border-radius: 10px;
 	.enlace{
@@ -77,12 +78,14 @@ border-radius: 10px;
 }
 
 #quintaSeccion{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
 	height: 300px;
 	background-image: linear-gradient( #CE9A55, #89CE55);
 	border: solid 1px green;
 	border-radius: 10px;
-	text-align: center;
 	.enlace{
 		text-decoration: none;
 	}
@@ -99,11 +102,6 @@ border-radius: 10px;
   
 
 
-.foro img{
-	display: block;
-	margin: auto;
-	padding-left: 20px;
-}
 
 
 

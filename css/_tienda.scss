@@ -3,15 +3,22 @@
 
 .tienda{    
     text-align: center;
-
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: brown;
 }
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .producto{
-    margin: 30px;
-    height: 300px;
+    margin: 20px;
+    height: 320px;
 	border: solid 1px #008000;
 	border-radius: 10px;
     .producto__texto{
@@ -31,5 +38,26 @@
     .producto__carrito{
         display: block;
         margin: auto;
+        cursor: pointer;
+        
     }
 }
+
+
+  
+
+@media screen and (max-width: 685px) {
+    .producto__fruto {
+      height: 150px;
+      width: 100px;
+    }
+  }
+
+  
+@media screen and (max-width: 575px) {
+    .producto__fruto {
+      height: 150px;
+      width: 150px;
+    }
+  }
+
