@@ -281,12 +281,16 @@ section h1, section h3 {
   margin-top: 5px;
 }
 
-.noticia {
-  margin-bottom: 2px;
-}
-
 .contenido {
   color: #461d0b;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.pick {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
 }
 
 .tienda {
@@ -410,6 +414,7 @@ section h1, section h3 {
   width: 100%;
   background-image: url(../multimedia/fondo.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
